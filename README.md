@@ -1,5 +1,7 @@
 # Demo to get config from Pulumi console using Automation API
 
+NOTE: YOU SHOULD ONLY USE THIS WITH TEST CONFIG VALUES AS IT WILL WRITE THEM OUT TO THE SCREEN.
+
 ## Instructions
 
 1. Clone repository: `git clone repoName`
