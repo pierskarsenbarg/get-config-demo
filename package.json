@@ -1,0 +1,19 @@
+{
+  "name": "automation-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.12.0",
+    "@types/node": "^16.9.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./bin/index.js"
+  }
+}
