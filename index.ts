@@ -23,6 +23,8 @@ const stackName = "";
     // Refresh config from console
     const config = await workspace.refreshConfig(`${organisationName}/${stackName}`);
 
+    console.log(config);
+
     // Loop through config key/value pairs
     for (let configKey in config) {
         console.log(`Config key: ${configKey} Config value: ${config[configKey].value}`);
